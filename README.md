@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
-<h2 style='font-family: "Goldman", Arial, sans-serif'>Hi! I'm Alexey 👋</h2>
+<h2 style='font-family: "Goldman", sans-serif; font-weight: 400; font-style: normal;'>Hi! I'm Alexey 👋</h2>
 
 <!--
 **psan3333/psan3333** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
