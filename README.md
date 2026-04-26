@@ -1,5 +1,15 @@
 
-<img src="images/main.svg">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 100% 100%" width="100%"
+  height="100%">
+  <foreignObject width="100%" height="100%">
+    <style>
+      @import "style.css";
+    </style>
+    <main class="container" xmlns="http://www.w3.org/1999/xhtml">
+      <h1 class="responsive-font lime bold">My Name is Alexey and I like <span class="blink">Visuals</span></h1>
+    </main>
+  </foreignObject>
+</svg>
 <!--
 **psan3333/psan3333** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
