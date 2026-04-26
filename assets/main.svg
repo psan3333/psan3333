@@ -4,7 +4,7 @@
         <div class="container" xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 * {
-    font-family: Helvetica;
+    font-family: inherit;
     font-style: normal;
 }
 
