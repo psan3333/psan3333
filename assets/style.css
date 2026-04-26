@@ -11,10 +11,6 @@ h1 {
     font-size: 48px;
 }
 
-svg {
-    background-color: hsl(216, 65%, 9%);
-}
-
 .link {
     background-color: hsl(216, 65%, 17%);
     width: 24px;
@@ -71,6 +67,7 @@ svg {
     justify-content: center;
     align-items: center;
     gap: 24px;
+    background-color: hsl(216, 65%, 9%);
 }
 
 .blink {
