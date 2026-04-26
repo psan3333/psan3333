@@ -1,7 +1,4 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
-<img width="100%" height="100%" alt="My Name is Alexey and I like Visuals" src="images/main.svg">
+<img width="100%" height="100%" alt="My Name is Alexey and I like Visuals" src="assets/main.svg">
 <!--
 **psan3333/psan3333** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
