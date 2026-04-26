@@ -1,11 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 100% 100%" width="100%"
-  height="100%">
-  <foreignObject width="100%" height="100%">
-    <style>
-      @import "style.css";
-    </style>
-    <main class="container" xmlns="http://www.w3.org/1999/xhtml">
-      <h1 class="responsive-font lime bold">My Name is Alexey and I like <span class="blink">Visuals</span></h1>
-    </main>
-  </foreignObject>
+    height="100%">
+    <foreignObject width="100%" height="100%">
+        <div class="container" xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                * {
+                    font-family: "Goldman", sans-serif;
+                    font-style: normal;
+                }
+
+                .lime {
+                    color: rgb(124, 255, 122);
+                }
+
+                h1 {
+                    font-size: 48px;
+                }
+
+                .responsive-font {
+                    text-overflow: ellipsis;
+                    text-align: center;
+                }
+
+                .bold {
+                    font-weight: 700;
+                }
+
+                .container {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 24px;
+                    background-color: hsl(216, 65%, 17%);
+                }
+
+                .blink {
+                    color: hsl(37, 85%, 59%);
+                    animation: blink-animation 1s steps(5, start) infinite;
+                }
+
+                @keyframes blink-animation {
+                    to {
+                        visibility: hidden;
+                    }
+                }
+            </style>
+            <h1 class="responsive-font lime bold">My Name is Alexey and I like <span
+                    class="blink">
+                    Visuals</span></h1>
+        </div>
+    </foreignObject>
 </svg>
